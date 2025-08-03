@@ -1,0 +1,124 @@
+/* Palette */
+:root {
+  --dark-gray: #57564f;
+  --medium-gray: #7a7a73;
+  --light-base: #dddad0;
+  --highlight: #f8f3ce;
+  --success-green: #2ecc71;
+}
+
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #7A7A73  ;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #57564F;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Card */
+.form-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 500;
+}
+
+input[type='text'],
+input[type='file'],
+select,
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: var(--dark-gray);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #44433f;
+}
+
+/* Success message */
+.success {
+  margin-top: 15px;
+  background-color: var(--success-green);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  background-color: #57564F;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}

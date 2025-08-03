@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>View Alerts - Responzo</title>
+  <link rel="stylesheet" href="css/viewalerts.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Responzo</div>
+    <nav class="nav-links">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="reportdisaster.html">Report Disaster</a>
+      <a href="#">Logout</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Disaster Alerts</h1>
+
+    <div class="filter-bar">
+      <label for="filterType">Filter by Type:</label>
+      <select id="filterType">
+        <option value="All">All</option>
+        <option value="Flood">Flood</option>
+        <option value="Fire">Fire</option>
+        <option value="Earthquake">Earthquake</option>
+      </select>
+    </div>
+
+    <div class="alerts-container" id="alertsContainer">
+      <!-- Alerts will be populated via JS -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Responzo. All rights reserved.</p>
+  </footer>
+
+  <script src="js/viewalerts.js"></script>
+</body>
+</html>

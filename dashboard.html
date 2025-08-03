@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responzo Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="logo">Responzo</div>
+        <nav class="sidebar-nav">
+  <a href="dashboard.html">Dashboard</a>
+  <a href="reportdisaster.html">Report Disaster</a>
+  <a href="viewalerts.html">View Alerts</a>
+  <a href="safezones.html">Safe Zones</a>
+  <a href="requesthelp.html">Request Help</a>
+  <!-- Remove SOS or link to map.html if using -->
+  <a href="map.html">Map</a>
+  <a href="#" id="logoutBtn">Logout</a>
+</nav>
+
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Top Navbar -->
+        <div class="top-navbar">
+          <h1>Welcome, User</h1>
+        </div>
+
+        <!-- Cards -->
+        <section class="cards-grid">
+
+  <a href="reportdisaster.html" class="card">
+    <span class="card-icon">📍</span>
+    <h3>Report Disaster</h3>
+    <p>Quickly report any natural or man-made disaster in your area.</p>
+  </a>
+
+  <a href="viewalerts.html" class="card">
+    <span class="card-icon">🔔</span>
+    <h3>View Alerts</h3>
+    <p>Stay updated with real-time emergency notifications.</p>
+  </a>
+
+  <a href="safezones.html" class="card">
+    <span class="card-icon">📌</span>
+    <h3>Safe Zones</h3>
+    <p>Find nearby safe shelters and emergency locations.</p>
+  </a>
+
+  <a href="requesthelp.html" class="card">
+    <span class="card-icon">🆘</span>
+    <h3>Request Help</h3>
+    <p>Need help? Send a quick request to volunteers or authorities.</p>
+  </a>
+
+  <div class="card" onclick="showEmergencyContacts()">
+    <img src="assets/emergency.jpg" alt="Emergency Contacts Icon" />
+    <h3>Emergency Contacts</h3>
+    <p>Access important emergency contact numbers.</p>
+  </div>
+
+  <div class="card" onclick="showWeatherInfo()">
+    <span class="card-icon">⛅</span>
+    <h3>Weather Info</h3>
+    <p>See live weather updates and forecasts in your area.</p>
+  </div>
+
+  <a href="newsalerts.html" class="card">
+    <span class="card-icon">📰</span>
+    <h3>News & Alerts</h3>
+    <p>Follow live disaster news and government alerts.</p>
+  </a>
+
+  <a href="map.html" class="card">
+    <span class="card-icon">🗺️</span>
+    <h3>Map</h3>
+    <p>Visual map tracking (Coming Soon).</p>
+  </a>
+
+</section>
+
+
+        <!-- Footer -->
+        <footer class="dashboard-footer">
+          <p>&copy; 2025 Responzo Disaster Management</p>
+        </footer>
+      </main>
+    </div>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>

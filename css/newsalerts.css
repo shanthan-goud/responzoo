@@ -1,0 +1,84 @@
+:root {
+  --dark-gray: #57564f;
+  --medium-gray: #7a7a73;
+  --light-base: #dddad0;
+  --highlight: #f8f3ce;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--light-base);
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--dark-gray);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* News Grid */
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.news-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid var(--dark-gray);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.news-card h3 {
+  margin-top: 0;
+  color: var(--dark-gray);
+}
+
+.news-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  background-color: var(--dark-gray);
+  color: white;
+  text-align: center;
+  padding: 12px;
+}

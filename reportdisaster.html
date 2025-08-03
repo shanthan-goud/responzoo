@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report a Disaster - Responzo</title>
+    <link rel="stylesheet" href="css/reportdisaster.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Responzo</div>
+      <nav class="nav-links">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="#">View Alerts</a>
+        <a href="#">Logout</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1>Report a Disaster</h1>
+      <div class="form-card">
+        <form id="disasterForm">
+          <label for="type">Disaster Type</label>
+          <select id="type" required>
+            <option value="">--Select Type--</option>
+            <option value="Flood">Flood</option>
+            <option value="Earthquake">Earthquake</option>
+            <option value="Fire">Fire</option>
+          </select>
+
+          <label for="description">Description</label>
+          <textarea
+            id="description"
+            placeholder="Describe what you saw..."
+            required
+          ></textarea>
+
+          <label for="location">Location</label>
+          <input
+            type="text"
+            id="location"
+            value="Auto-location (coming soon)"
+            disabled
+          />
+
+          <label for="image">Upload Image (optional)</label>
+          <input type="file" id="image" />
+
+          <button type="submit">Submit Report</button>
+        </form>
+
+        <div id="successMessage" class="success hidden">
+          ✅ Disaster Report Submitted Successfully!
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Responzo Disaster Management</p>
+    </footer>
+
+    <script src="js/reportdisaster.js"></script>
+  </body>
+</html>

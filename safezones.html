@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Safe Zones - Responzo</title>
+  <link rel="stylesheet" href="css/safezones.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Responzo</div>
+    <nav class="nav-links">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="viewalerts.html">View Alerts</a>
+      <a href="#">Logout</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Nearby Safe Zones</h1>
+    <p class="intro">Find the nearest shelters, hospitals, and emergency centers during a crisis.</p>
+
+    <div class="filter-bar">
+      <label for="zoneType">Filter by Type:</label>
+      <select id="zoneType">
+        <option value="All">All</option>
+        <option value="Shelter">Shelter</option>
+        <option value="Hospital">Hospital</option>
+        <option value="Police">Police Station</option>
+      </select>
+    </div>
+
+    <div class="zones-container" id="zonesContainer">
+      <!-- Safe zone cards will be inserted here via JS -->
+    </div>
+
+    <div class="map-placeholder">
+      <p>[Map View Placeholder – Google Maps or other integration]</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Responzo. All rights reserved.</p>
+  </footer>
+
+  <script src="js/safezones.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+:root {
+  --dark-gray: #57564F;
+  --medium-gray: #7A7A73;
+  --light-base: #DDDAD0;
+  --highlight: #F8F3CE;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--light-base);
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--dark-gray);
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Main Container */
+.container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-bar {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.filter-bar label {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+select {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #888;
+}
+
+/* Alerts Grid */
+.alerts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.alert-card {
+  background-color: white;
+  border-left: 5px solid var(--dark-gray);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alert-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--dark-gray);
+}
+
+.alert-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  background-color: var(--medium-gray);
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
