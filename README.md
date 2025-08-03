@@ -1,50 +1,13 @@
 # 🆘 Responzo - Disaster Management Web App
 
-**Responzo** is a front-end disaster management dashboard designed to assist users in emergency scenarios. It provides quick access to tools like reporting disasters, viewing alerts, requesting help, and locating safe zones.
-
----
-
+Responzo is a front-end disaster management dashboard designed to assist users in emergency scenarios. It provides quick access to tools like reporting disasters, viewing alerts, requesting help, and locating safe zone
 ## 🚀 Live Site
 
-🔗 [Click here to view the deployed site](https://your-deployment-link.com)
+🔗 [Click here to view the deployed site](https://github.com/shanthan-goud/responzoo)
 
 > Replace the above link with your actual Netlify or Vercel deployed URL.
 
----
-
-## 📁 Folder Structure
-
-Responzoo/
-│
-├── index.html # Redirects to login page
-├── login.html
-├── signup.html
-├── dashboard.html
-├── reportdisaster.html
-├── viewalerts.html
-├── safezones.html
-├── requesthelp.html
-├── newsalerts.html
-├── map.html
-│
-├── css/
-│ ├── dashboard.css
-│ ├── style.css
-│ └── (other CSS files)
-│
-├── js/
-│ ├── dashboard.js
-│ ├── reportdisaster.js
-│ └── (other JS files)
-│
-└── assets/
-├── emergency.jpg
-├── login-bg.jpg
-└── (other image files)
-
----
-
-## 🛠️ Features
+🛠️ Features
 
 - 📍 Report disasters in real time
 - 🔔 View emergency alerts and warnings
@@ -62,12 +25,9 @@ Responzoo/
 - ✅ HTML5
 - ✅ CSS3
 - ✅ JavaScript (Vanilla)
-- ❌ No backend yet (planned for future)
 - 📱 Fully responsive for mobile and tablets
 
----
-
-## 🔮 Future Scope (for backend team)
+  Future Scope
 
 - 🔐 User authentication
 - 🧾 Store and retrieve reports from database
@@ -75,17 +35,3 @@ Responzoo/
 - 🗺️ Interactive map with live data
 - 💾 Backend in Node.js / Firebase / MongoDB
 
----
-
-## 🤝 Contributors
-
-- **Frontend Developer**: Shanthan Goud
-- **Backend Developer**: _(To be added)_
-
----
-
-## 📬 Contact
-
-If you're interested in contributing or collaborating, feel free to raise an issue or fork the repository.
-
----
