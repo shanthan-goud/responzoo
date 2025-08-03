@@ -3,7 +3,7 @@
 Responzo is a front-end disaster management dashboard designed to assist users in emergency scenarios. It provides quick access to tools like reporting disasters, viewing alerts, requesting help, and locating safe zone
 ## 🚀 Live Site
 
-🔗 [Click here to view the deployed site](https://github.com/shanthan-goud/responzoo)
+🔗 [Click here to view the deployed site](https://stupendous-youtiao-486685.netlify.app/signup.html)
 
 > Replace the above link with your actual Netlify or Vercel deployed URL.
 
